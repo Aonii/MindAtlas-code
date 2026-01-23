@@ -1,5 +1,5 @@
 <?php
-declare(strict_type=1);
+declare(strict_types=1);
 
 class Database
 {
@@ -31,7 +31,7 @@ class Database
     $host = 'localhost';
     $dbName = 'course_report';
     $username = 'root';
-    $password = '';
+    $password = '326326Fan';
 
     $dsn = sprintf(
       'mysql:host=%s;dbname=%s;charset=utf8mb4',

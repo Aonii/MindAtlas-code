@@ -1,5 +1,5 @@
 -- Users Seed
-INSERT INTO users (first_name, last_name) VALUES
+INSERT INTO users (first_name, surname) VALUES
 ('Aoni', 'Fu'),
 ('Bob', 'Johnson'),
 ('Charlie', 'Brown'),
@@ -9,7 +9,10 @@ INSERT INTO users (first_name, last_name) VALUES
 ('George', 'Miller'),
 ('Hannah', 'Davis'),
 ('Ian', 'Wilson'),
-('Julia', 'Taylor');
+('Julia', 'Taylor'),
+('Andrew', 'Poor'),
+('Charles', 'Liu'),
+('Tina', 'Fu');
 
 -- Courses Seed
 INSERT INTO courses (description) VALUES
@@ -62,4 +65,16 @@ INSERT INTO enrolments (user_id, course_id, completion_status) VALUES
 (9,6,'completed'), (9,9,'completed'), (9,10,'in progress'),
 
 -- User 10
-(10,6,'in progress'), (10,7,'completed'), (10,8,'not started'), (10,9,'completed'), (10,10,'completed');
+(10,6,'in progress'), (10,7,'completed'), (10,8,'not started'), (10,9,'completed'), (10,10,'completed'),
+
+-- User 11
+(11,1,'in progress'), (11,2,'completed'), (11,3,'completed'), (11,4,'completed'), (11,5,'not started'),
+(11,6,'completed'), (11,7,'in progress'), (11,8,'completed'), (11,9,'completed'), (11,10,'completed'),
+
+-- User 12
+(12,1,'in progress'), (12,2,'completed'), (12,3,'completed'), (12,4,'completed'), (12,5,'not started'),
+(12,6,'completed'), (12,7,'in progress'), (12,8,'completed'), (12,9,'completed'), (12,10,'completed'),
+
+-- User 13
+(13,1,'in progress'), (13,2,'completed'), (13,3,'completed'), (13,4,'completed'), (13,5,'not started'),
+(13,6,'completed'), (13,7,'in progress'), (13,8,'completed'), (13,9,'completed'), (13,10,'completed');

@@ -55,51 +55,6 @@ course-report/
 
 ---
 
-## Database Setup
-
-### 1. Create Database
-
-```sql
-CREATE DATABASE course_report;
-```
-
-### 2. Import Schema
-
-```bash
-mysql -u your_user -p course_report < sql/schema.sql
-```
-
-### 3. Import Seed Data
-
-```bash
-mysql -u your_user -p course_report < sql/seed.sql
-```
-
-The seed data includes:
-
-- 10 users
-- 10 courses
-- 100 unique enrolments with mixed completion statuses
-
----
-
-## Configuration
-
-Update the database credentials in:
-
-```
-config/database.php
-```
-
-```php
-$host = 'localhost';
-$dbName = 'course_report';
-$username = 'root';
-$password = '';
-```
-
----
-
 ## Running the Application
 
 From the project root directory:
